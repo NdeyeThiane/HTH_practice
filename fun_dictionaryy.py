@@ -1,6 +1,3 @@
-import abc
-from types import ClassMethodDescriptorType
-
 
 dict_name = {'Chicken':1.59, 'Beef':1.99, 'Cheese':1.00, 'Milk':2.50}
 #print(dict_name['Chicken'])
