@@ -11,10 +11,6 @@ win.bgcolor("blue")
 win.setup(width=600,height=600)
 win.tracer(0)
 
-#score
-score = 0
-high_score = 0
-
 #Snake Head
 head = turtle.Turtle()
 head.speed(0)
@@ -57,6 +53,10 @@ def go_right():
 def go_left():
     if head.direction != "right":
         head.direction = "left"
+        
+#score
+score = 0
+high_score = 0        
 
 #keyboard bindings
 win.listen()
